@@ -1,0 +1,141 @@
+body {
+   color: Black;
+   font-family: 'Roboto', Verdana;
+   font-size: 15px;
+   background-image: url("pic/watchtower.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   text-align: center;
+}
+/* Click to Enter Store */
+.toEnterStore {
+    padding: 10px 15px 11px !important;
+    font-size: 15px !important;
+    background-color: transparent;
+    font-weight: lighter;
+	font-family:Verdana!important;
+    color: black;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 2px solid Black;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+/* Click to Enter Store (Hover) */
+.toEnterStore:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+}
+/* Click to Add Item */
+.toAddItem {
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Click to Add Item (Hover) */
+.toAddItem:hover {
+	background-color: #45a049;
+}
+h1 {
+    font-weight: light;
+    font-size: 150%;
+}
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #000;
+    padding: 8px;
+}
+tr:nth-child(odd){background-color: rgba(255, 255, 255, 0.7);}
+tr:nth-child(even){background-color: rgba(255, 255, 255, 0.7);}
+tr:hover {background-color: rgba(255, 255, 255, 0.9);}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+.inputNo {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 80%;
+    width: 50px;
+    padding: 1px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+.inputNo:focus {
+    outline:none;
+}
+.toUpdateItem {
+	background-color: #4CAF50;
+    color: white;
+	width: 50px;
+    padding: 1px 1px;
+	border: 1px solid #45a049;
+    border-radius: 4px;
+    cursor: pointer;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+}
+/* Click to Add Item (Hover) */
+.toUpdateItem:hover {
+	background-color: #45a049;
+}
+.toDeleteItem {
+	background-color: transparent;
+    color: black;
+    padding: 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Click to Add Item (Hover) */
+.toDeleteItem:hover {
+	background-color: #999;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+	border-right: 1px solid #bbb;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	transition: all 0.5s ease 0s;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
